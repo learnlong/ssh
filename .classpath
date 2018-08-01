@@ -53,7 +53,7 @@
 	<classpathentry kind="lib" path="D:/hibernate-release-5.2.2.Final/lib/required/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar"/>
 	<classpathentry kind="lib" path="D:/hibernate-release-5.2.2.Final/lib/required/jboss-logging-3.3.0.Final.jar"/>
 	<classpathentry kind="lib" path="D:/hibernate-release-5.2.2.Final/lib/required/jsr250-api-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Desktop/mysql-connector-java-5.1.38.jar"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="D:/cyf/mysql-connector-java-5.1.38.jar"/>
+	<classpathentry kind="lib" path="D:/cyf/sqljdbc4.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

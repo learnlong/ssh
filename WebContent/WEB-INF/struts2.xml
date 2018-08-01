@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>  
+
+    <!-- 自动发布 -->  
+    <constant name="struts.devMode" value="true" />  
+    <!-- 过滤器 -->  
+    <constant name="struts.i18n.encoding" value="GBK"/>  
+    <!-- 配置i18n -->  
+    <constant name="struts.custom.i18n.resources" value="message"></constant>  
+
+   <!-- i18n控制 -->  
+   <package name="i18n" namespace="/"  extends="struts-default">  
+        <action name="i18n" class="com.struts2.test.LoginAction" method="ha">  
+            <result name="success">  
+               /i18nlogin.jsp  
+            </result>  
+            <result name="input">  
+               /i18nlogin.jsp  
+            </result>  
+        </action>  
+    </package>      
+
+</struts>  
