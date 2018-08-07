@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+ 
+<struts>
+	<constant name="struts.costom.i18n.resources" value="globalMessages"/>
+	<package name="default" extends="struts-default" namespace="/">
+		<interceptors>
+			<interceptor name="myInter" class="com.struts.test.CheckInterceptor"></interceptor>
+		</interceptors>
+		<action name="login" class="com.struts.test.LoginAction">
+			<result name="success">/i18n.jsp</result>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<interceptor-ref name="myInter"></interceptor-ref>
+		</action>
+	</package>
+</struts>
