@@ -13,6 +13,8 @@
       <action name="hello" 
             class="cn.w3cschool.struts2.HelloWorldAction" 
             method="execute">
+            <interceptor-ref name="params"/>
+            <interceptor-ref name="timer" />
             <result name="success">/HelloWorld.jsp</result>
             <result name="error">/AccessDenied.jsp</result>
       </action>
