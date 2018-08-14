@@ -36,7 +36,7 @@
 </struts> -->
 
 
-<struts>
+<!-- <struts>
    <constant name="struts.devMode" value="true" />
    <package name="helloworld" extends="struts-default">
    
@@ -47,6 +47,22 @@
          <result name="error">/error.jsp</result>
       </action>
    
+   </package>
+
+</struts> -->
+
+
+<struts>
+   <constant name="struts.devMode" value="true" />
+   <package name="helloworld" extends="struts-default">
+
+      <action name="empinfo" 
+         class="cn.w3cschool.struts2.Employee"
+         method="execute">
+         <result name="input">/index.jsp</result>
+         <result name="success">/success.jsp</result>
+      </action>
+
    </package>
 
 </struts>
