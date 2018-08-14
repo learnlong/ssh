@@ -2,9 +2,9 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-<title>File Upload Error</title>
+<title>Invalid User Name or Password</title>
 </head>
 <body>
-There has been an error in uploading the file.
+   Wrong user name or password provided.
 </body>
 </html>

@@ -2,9 +2,9 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-<title>File Upload Success</title>
+<title>Successful Login</title>
 </head>
 <body>
-You have successfully uploaded <s:property value="myFileFileName"/>
+   Hello World, <s:property value="name"/>
 </body>
 </html>
